@@ -1,6 +1,5 @@
 # Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Random dad jokes app which gives 10 random jokes at a time, app also contain upvote and downvote with emoji system to react
 
 ## Available Scripts
 
