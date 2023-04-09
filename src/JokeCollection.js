@@ -4,6 +4,7 @@ import axios from 'axios';
 import Header from './Header';
 import Footer from './Footer';
 import uuid from 'react-uuid';
+
 class JokeCollection extends Component {
     static defaultProps = {
         numJoke: 10
@@ -27,7 +28,7 @@ class JokeCollection extends Component {
     handleVote(id , voting){
         this.setState(st => ({
             jokes : st.jokes.map(joke => 
-                // if joke id is equal to id it increases + voting(1 or -1) otherwise not (joke) 
+                // if joke id is equal to id it increases + voting(1 or -1) or return as it is
                 joke.id === id? {...joke, votes : joke.votes + voting} : joke 
                 )
         }))
