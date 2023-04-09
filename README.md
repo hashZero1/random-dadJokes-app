@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 Random dad jokes app which gives 10 random jokes at a time, app also contain upvote and downvote with emoji system to react
 
+![Screenshot (117)](https://user-images.githubusercontent.com/117970097/230768521-02437656-9db8-4e09-85ae-5e34e9abc59f.png)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
