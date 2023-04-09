@@ -75,31 +75,11 @@ render(){
                  </div>
               </div>
            </div>
-
-           </>
-           </div>
+          </>
+         </div>
     )
 }
 }
+
 export default Joke;
 
-
-
-// <div class="w-3/4 items-center justify-between">
-// <div class="flex items-center flex-1 min-w-0">
-// <img
-//       src={this.changeEmoji()} alt={this.changeEmoji} class="flex-shrink-0 object-cover rounded-full btn- w-10 h-10"/>
-//   <div class="mt-0 mr-0 mb-0 ml-4 flex-1 min-w-0">
-//     <p class="text-lg font-bold text-gray-800 truncate">{this.props.text}</p>
-//   </div>
-// </div>
-// <div class="mt-4 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-14 flex items-center sm:space-x-6 sm:pl-0 sm:justify-end
-//     sm:mt-0">
-//    <button onClick={this.props.upvote} class="bg-gray-800 pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-100 transition-all
-//       duration-200 hover:bg-gray-700 rounded-lg">upvote</button>
-//       <button style={{backgroundColor: this.changeColor()}} class={`pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-800 transition-all
-//       duration-200 hover:bg-gray-700 rounded-lg`}>{this.props.vote}</button>
-//       <button onClick={this.props.downvote} class="bg-gray-800 pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-100 transition-all
-//       duration-200 hover:bg-gray-700 rounded-lg">downvote</button>
-// </div>
-// </div> 
